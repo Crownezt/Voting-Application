@@ -1,8 +1,8 @@
 # VOTING APP
 This is a Java Spring boot server application that allows 
-voters to castVote online in comfort of their homes without 
-going out staying on the queue for hours, and waste of times.
-It is usefully for schools for elections.
+voters to cast vote online in comfort of their homes without 
+going out staying on the queue for hours, and waste productive time.
+It is also useful for schools elections.
 
 Technologies used:
 * `Springboot`
@@ -21,5 +21,5 @@ git clone https://github.com/Crownezt/Voting-Application.git
 
 ### Developer & Engineer
 Adewunmi Adegunwa
-* [Gitbub (Crownezt)](https://github.com/Crownezt)
+* [Github (Crownezt)](https://github.com/Crownezt)
 * [Twitter (@a_wunmie)](https://twitter.com/@a_wunmie)
