@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:~/voting_App
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: adepheranmie@gmail.com
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+        starttls:
+          enable: true
+myapp:
+  app-link: http://localhost:9099
+  support-email: adepheranmie@gmail.com
+
+server:
+  port: 9099
